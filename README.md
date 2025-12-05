@@ -48,7 +48,7 @@ void main() {
 
 ## 5. QA & Certification
 This library has been verified against the **"Thien La Dia Vong" Stress Test Suite**, ensuring that:
-*   Guests with **Tam Tai** are strictly penalized.
+*   Guests with **Tam Tai** are strictly penalized.s
 *   Guests with **Thai Tue Clash** are disqualified immediately.
 *   **Example Victory:** Correctly identified that for a 1981 Host, a 1989 (Kỷ Tỵ) guest is superior to a 1985 (Ất Sửu) guest due to better Nạp Âm harmony (despite both being Tam Hợp).
 
