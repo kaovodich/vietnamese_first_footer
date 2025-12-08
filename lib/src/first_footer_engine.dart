@@ -393,6 +393,7 @@ class FirstFooterEngine {
   }
 
   static bool checkTamTai(String guestChi, String currentYearChi) {
+    // Rule 1: Thân - Tý - Thìn suffer Tam Tai in Dần - Mão - Thìn
     const group1 = {"Thân", "Tý", "Thìn"};
     const bad1 = {"Dần", "Mão", "Thìn"};
     if (group1.contains(guestChi) && bad1.contains(currentYearChi)) return true;
